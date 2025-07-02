@@ -1,0 +1,13 @@
+#!/bin/bash
+pwd
+touch 0-current_working_directory
+nano 0-current_working_directory
+# ثم الصق الكود أعلاه واحفظ
+chmod +x 0-current_working_directory
+
+cd system_engineering-devops
+git init
+git remote add origin https://github.com/yossefmahmoudjr/system_engineering-devops.git
+git add .
+git commit -m "Initial commit with shell basics scripts"
+git push -u origin main 
